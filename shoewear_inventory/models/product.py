@@ -1,6 +1,7 @@
 from sqlalchemy import Column, Integer, String, Float, ForeignKey
 from sqlalchemy.orm import relationship
 from shoewear_inventory.models.base import Base, SessionLocal
+from shoewear_inventory.models.brand import Brand
 
 
 class Product(Base):
